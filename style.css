@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  background-color: pink;
+  color: white;
+  padding: 50px;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  font-family: 'Lobster', cursive;
+}
+
+#move {
+  left: 250px;
+}
+
+#change:hover {
+  cursor: pointer;
+}
