@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
+
+ 
   justify-content: center;
   align-items: center;
   gap: 30px;
   display: flex;
-  background-color: pink;
+  background-color: rgb(255, 192, 234);
   color: white;
   padding: 50px;
 }
